@@ -1,0 +1,24 @@
+body{
+    background: linear-gradient(cornsilk,skyblue);
+}
+
+h1{
+    text-align: center;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+   border-radius: 50%;
+    display:block;
+    height: 250px;
+    width: 250px;
+    background-size:cover;
+    transition:1s;
+}
+img:hover{
+    cursor: pointer;
+    transform: rotate(360deg);
+    
+}
